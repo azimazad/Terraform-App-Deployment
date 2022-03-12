@@ -11,7 +11,7 @@ This Project is an automation that spins up a deployment environment in AWS, sta
 
 1.Open gitbash  
 2.Create a directory using command `mkdir`  
-3.Clone the IAC github repository - https://github.com/azimazad/Terraform-App-Deployment.git ,Using `git clone`  
+3.Clone the IAC github repository - https://github.com/azimazad/Terraform-App-Deployment.git ,Using `git clone` into the directory.  
 4.Run terraform init to setup the terraform backend - `terraform init`  
 5.Apply terraform passing secret and access key as variables - `terraform apply -var 'access_key=****' -var 'secret_key=****'`  
 6.Replace the variable values with your own credentials.  
